@@ -14,8 +14,8 @@ faster on a RAID volume or over NFS when you do a number of stat
 operations concurrently.
 
 Runtime requirements:
-  cygwin-1.5.25-11
-  perl-5.10.0-3
+  cygwin-1.5.25-15
+  perl-5.10.0-4
 
 Build requirements:
 (besides corresponding -devel packages)
@@ -33,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-IO-AIO-3.03-X-src.tar.bz2
+  unpack perl-IO-AIO-3.05-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-IO-AIO-3.03-X.cygport all
+  cygport ./perl-IO-AIO-3.05-X.cygport all
 
 This will create:
-  /usr/src/perl-IO-AIO-3.03-X-src.tar.bz2
-  /usr/src/perl-IO-AIO-3.03-X.tar.bz2
+  /usr/src/perl-IO-AIO-3.05-X-src.tar.bz2
+  /usr/src/perl-IO-AIO-3.05-X.tar.bz2
 
 -------------------------------------------
 
@@ -50,14 +50,17 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/IO/AIO.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/IO/AIO/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/IO/AIO/AIO.dll
-  /usr/share/doc/perl-IO-AIO-3.03/COPYING
-  /usr/share/doc/perl-IO-AIO-3.03/Changes
-  /usr/share/doc/perl-IO-AIO-3.03/README
+  /usr/share/doc/perl-IO-AIO-3.05/COPYING
+  /usr/share/doc/perl-IO-AIO-3.05/Changes
+  /usr/share/doc/perl-IO-AIO-3.05/README
   /usr/share/man/man3/IO.AIO.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 3.05-1 -----
+Version bump.
 
 ----- version 3.03-1 -----
 Major version bump.
