@@ -33,15 +33,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-IO-AIO-3.16-X-src.tar.bz2
+  unpack perl-IO-AIO-3.17-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-IO-AIO-3.16-X.cygport all
+  cygport ./perl-IO-AIO-3.17-X.cygport all
 
 This will create:
-  /usr/src/perl-IO-AIO-3.16-X-src.tar.bz2
-  /usr/src/perl-IO-AIO-3.16-X.tar.bz2
+  /usr/src/perl-IO-AIO-3.17-X-src.tar.bz2
+  /usr/src/perl-IO-AIO-3.17-X.tar.bz2
 
 -------------------------------------------
 
@@ -50,14 +50,17 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/IO/AIO.pm
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/IO/AIO/.packlist
   /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/IO/AIO/AIO.dll
-  /usr/share/doc/perl-IO-AIO-3.16/COPYING
-  /usr/share/doc/perl-IO-AIO-3.16/Changes
-  /usr/share/doc/perl-IO-AIO-3.16/README
+  /usr/share/doc/perl-IO-AIO-3.17/COPYING
+  /usr/share/doc/perl-IO-AIO-3.17/Changes
+  /usr/share/doc/perl-IO-AIO-3.17/README
   /usr/share/man/man3/IO.AIO.3pm.gz
 
 ------------------
 
 Port Notes:
+
+----- version 3.17-1 -----
+Version bump.
 
 ----- version 3.16-1 -----
 Version bump.
