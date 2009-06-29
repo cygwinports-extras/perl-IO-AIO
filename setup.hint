@@ -1,5 +1,5 @@
 category: Perl
-requires: cygwin perl
+requires: perl
 sdesc: "Perl asynchronous I/O module"
 ldesc: "This Perl module implements asynchronous I/O using whatever means your
 operating system supports."
